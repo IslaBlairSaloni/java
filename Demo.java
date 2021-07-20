@@ -1,3 +1,4 @@
+//Inheritance
 class Marks
 { 
   int a; 
