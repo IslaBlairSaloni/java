@@ -13,8 +13,8 @@ class SquareRoot
  }
 }
 ```
-<p> in **Math.sqrt** Math is class name and
-sqrt is method of that class. </p>
+<p> in Math.sqrt, MATH is class name and
+SQRT is a method of that class. </p>
 
 ### Java program structure
 
@@ -32,3 +32,7 @@ sqrt is method of that class. </p>
    everything is dependent on the classes.
 6. main method class 
    the execution of the program starts from here.
+
+>link to example [here](https://github.com/IslaBlairSaloni/java/blob/main/RoomArea.java"link")
+ 
+ 
