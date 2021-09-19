@@ -7,7 +7,7 @@ class Room
  void getData(float a, float b)
  {
    length=a;
-   length=b; 
+   breadth=b; 
  }
 }
 class RoomArea //class for main method
