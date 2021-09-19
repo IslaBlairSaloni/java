@@ -1,6 +1,7 @@
 /* note that file name is the class name that
- contains the main method */
-class Room
+ contains the main method */ //documentation 
+
+class Room //class definition
 {
  float length;
  float breadth;
