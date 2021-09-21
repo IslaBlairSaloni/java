@@ -2,7 +2,7 @@
  - [Sample Program](#sample-program)
  - [A basic structure](#java-program-structure)
  - [Java tokens](#java-tokens)
- - [Statements in java](#statement)
+ - [Statements in java](#statements)
  ___
 ### Sample-Program
 ```java
@@ -54,7 +54,7 @@ ___
   groups of code are divided and arranged.
 ____
 
-### statement
+### statements
 executable combination of tokens ending with;
 
 |  Expression   | labelled | synchronization | guarding |
