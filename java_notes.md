@@ -96,3 +96,11 @@ ___
  Finally the interpreter converts the bytecode 
  into machine code and the program gets 
  executed.
+
+> **Bytecode: **
+Bytecodes are machine-independent, therefore
+can be run on any machine. This code is 
+actually produced for a machine that does not 
+exist. This machine is called 
+*java virtual machine (JVM)* and only exists 
+inside the computer memory.
