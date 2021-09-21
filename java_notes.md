@@ -3,6 +3,7 @@
  - [A basic structure](#java-program-structure)
  - [Java tokens](#java-tokens)
  - [Statements in java](#statements)
+ - [Implementing a java program](#Implementing-a-java-program)
  ___
 
 ### Sample-Program
@@ -80,7 +81,7 @@ There are 5 types of statements, and some sub-types under 'expression' statement
  program development. 
 ___
 
-### Implementing a java program
+### Implementing-a-java-program
 
 1. Source file  
  Files with extension (.java) i.e. when the 
@@ -97,7 +98,7 @@ ___
  into machine code and the program gets 
  executed.
 
-> **Bytecode: **
+> **Bytecode:**
 Bytecodes are machine-independent, therefore
 can be run on any machine. This code is 
 actually produced for a machine that does not 
