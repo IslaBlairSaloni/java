@@ -1,4 +1,4 @@
->## Table of content
+## Table of content
  - [Sample Program](#sample-program)
  - [A basic structure](#java-program-structure)
  - [Java tokens](#java-tokens)
