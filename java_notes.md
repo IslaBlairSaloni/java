@@ -1,4 +1,10 @@
-### Sample Program
+>## Table of content
+ - [Sample Program](#sample-program)
+ - [A basic structure](#java-program-structure)
+ - [Java tokens](#java-tokens)
+ - [Statements in java](#statement)
+ ___
+### Sample-Program
 ```java
 /* square root of a number */
 import java.lang.Math;
@@ -15,8 +21,9 @@ class SquareRoot
 ```
 <p> in Math.sqrt, MATH is class name and
 SQRT is a method of that class. </p>
+___
 
-### Java program structure
+### Java-program-structure
 
 1. Documentation (optional)
    program name/author details in comments
@@ -34,8 +41,9 @@ SQRT is a method of that class. </p>
    the execution of the program starts from here.
 
 >link to example [here](https://github.com/IslaBlairSaloni/java/blob/main/RoomArea.java "link")
- 
-### java tokens
+ ___
+
+### java-tokens
 
 * keywords: predefined meaning (lower case)
 * identifier: programmer designed tokens
@@ -44,6 +52,7 @@ SQRT is a method of that class. </p>
   arguments to perform operations
 * separator: symbols used to indicate where
   groups of code are divided and arranged.
+____
 
 ### statement
 executable combination of tokens ending with;
