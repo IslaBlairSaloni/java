@@ -77,4 +77,22 @@ There are 5 types of statements, and some sub-types under 'expression' statement
 |  jump   |break, continue, return|
 
 * empty statement: does nothing, used as a place holder during
- program development.
+ program development. 
+___
+
+### Implementing a java program
+
+1. Source file  
+ Files with extension (.java) i.e. when the 
+ files are saved initially. 
+ Eg: RoomArea.java
+2. Compiling 
+ Compiler --> javac
+ After compilation, source file is converted 
+ to bytecode file. 
+ Extension (.class) 
+ Eg: RoomArea.class
+3. Interpreting
+ Finally the interpreter converts the bytecode 
+ into machine code and the program gets 
+ executed.
