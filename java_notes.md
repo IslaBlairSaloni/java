@@ -4,6 +4,7 @@
  - [Java tokens](#java-tokens)
  - [Statements in java](#statements)
  ___
+
 ### Sample-Program
 ```java
 /* square root of a number */
@@ -55,7 +56,9 @@ ___
 ____
 
 ### statements
-executable combination of tokens ending with;
+executable combination of tokens ending with ; 
+
+There are 5 types of statements, and some sub-types under 'expression' statements and 'control' statements.
 
 |  Expression   | labelled | synchronization | guarding |
 |  -----------  | -------- | --------------- | -------- |
