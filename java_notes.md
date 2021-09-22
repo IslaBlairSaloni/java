@@ -119,7 +119,7 @@ of making it for execution.
 
 > Eg: java RoomArea 14.5 6.4
 
-RoomArea--> file name
+RoomArea--> file name </br>
 14.5, 6.4--> Arguments
 
 These arguments are stored in the string type 
@@ -132,7 +132,7 @@ public static void main(String args[])
  .
 }
 ```
-14.5 args[0]
+14.5 args[0] </br>
 6.4 args[1]
 
 0,1 (index)
