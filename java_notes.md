@@ -4,6 +4,7 @@
  - [Java tokens](#java-tokens)
  - [Statements in java](#statements)
  - [Implementing a java program](#Implementing-a-java-program)
+ - [Command line arguments](Command-Line-Arguments)
  ___
 
 ### Sample-Program
@@ -104,4 +105,37 @@ can be run on any machine. This code is
 actually produced for a machine that does not 
 exist. This machine is called 
 *java virtual machine (JVM)* and only exists 
-inside the computer memory.
+inside the computer memory. 
+
+___
+
+### Command-Line-Arguments
+
+* We use them when we want our program to act in
+a particular way depending upon the input 
+provided at the time of execution.
+* Supplied to application programs at the time
+of making it for execution.
+
+> Eg: java RoomArea 14.5 6.4
+
+RoomArea--> file name
+14.5, 6.4--> Arguments
+
+These arguments are stored in the string type 
+array args[] we use while calling main method.
+```java
+public static void main(String args[])
+{
+ .
+ .
+ .
+}
+```
+14.5 args[0]
+6.4 args[1]
+
+0,1 (index)
+
+**Note:** Indexing in arrays begin from 0 
+and NOT 1.
