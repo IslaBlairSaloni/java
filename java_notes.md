@@ -4,7 +4,7 @@
  - [Java tokens](#java-tokens)
  - [Statements in java](#statements)
  - [Implementing a java program](#Implementing-a-java-program)
- - [Command line arguments](Command-Line-Arguments)
+ - [Command line arguments](#Command-Line-Arguments)
  ___
 
 ### Sample-Program
