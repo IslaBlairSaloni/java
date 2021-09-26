@@ -49,7 +49,7 @@ ___
 ### java-tokens
 
 * keywords: predefined meaning (lower case)
-* identifier: programmer designed tokens
+* identifier: programmer designed tokens (can use $ sign too)
 * literal: constant values
 * operator: symbols which take one/more 
   arguments to perform operations
