@@ -50,7 +50,8 @@ ___
 
 * keywords: predefined meaning (lower case)
 * identifier: programmer designed tokens (can use $ sign too)
-* literal: constant values
+* literal: constant values 
+ [more](#Literals)
 * operator: symbols which take one/more 
   arguments to perform operations
 * separator: symbols used to indicate where
@@ -139,3 +140,50 @@ public static void main(String args[])
 
 **Note:** Indexing in arrays begin from 0 
 and NOT 1.
+
+### Literals
+ * numeric
+     * integer constants
+         * binary literals- </br>
+           eg: int num1=0b0101110; </br>
+           int num2=0B0110100; </br>
+           0b--> fixed value to represent </br>
+           binary numbers, case sensitive. 
+         * numeric literals </br>
+           eg: int m=45, n ,a; </br>
+           _ *\ _ you can also use underscore 
+           (_) to show place value </br>
+           eg: int num1=1_000; </br>
+               int num2=1_000_000 </br>
+    * real constants 
+        * floating points </br>
+          eg: 0.0083, -0.75, 7.6 etc. </br>
+          also valid: -.7, .5 , .24 etc 
+        * exponential/scientific </br>
+          eg: 215.65 ---> 2.1565e2 </br>
+          e2 means multiplying by 10²
+ * character constants
+     * single character constants </br>
+       '5','y',;',' '  </br>
+       it can be a number, alphabet, symbol 
+       and space too.
+     * string constant
+       "hello java"  </br>
+       "Welcome to my repository"  </br>
+       "x"  </br>
+       "5+3" </br>
+       "Boolean"  </br>
+
+**Backslash character constants** 
+
+* \b  - backspace
+* \f  - formfeed
+* \n  - new line
+* \r  - carriage return
+* \t  - horizontal tab
+* \"  - single quote
+* \"' - double quote
+* \\  - backslash
+   
+
+
