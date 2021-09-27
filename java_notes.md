@@ -181,9 +181,9 @@ and NOT 1.
 * \n  - new line
 * \r  - carriage return
 * \t  - horizontal tab
-* \"  - single quote
-* \"' - double quote
-* \\  - backslash
+* \\"  - single quote
+* \\' - double quote
+* \\\  - backslash
    
 
 
