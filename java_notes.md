@@ -151,7 +151,7 @@ and NOT 1.
            binary numbers, case sensitive. 
          * numeric literals </br>
            eg: int m=45, n ,a; </br>
-           *\ you can also use underscore (_) 
+           **note:** you can also use underscore (_) 
            to show place value </br>
            eg: int num1=1_000; </br>
                int num2=1_000_000 </br>
