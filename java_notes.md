@@ -5,7 +5,7 @@
  - [Statements in java](#statements)
  - [Implementing a java program](#Implementing-a-java-program)
  - [Command line arguments](#Command-Line-Arguments)
- ___
+ - [Data Types](#Data-types)___
 
 ### Sample-Program
 ```java
@@ -185,5 +185,26 @@ and NOT 1.
 * \\' - double quote
 * \\\  - backslash
    
+### Data-types
 
+**Primitive (intrinsic)**
+1. Numeric
+    * integer: 
+        * byte (1 byte)
+        * short (2 bytes)
+        * int (4 bytes)
+        * long (8 bytes)
+    * floating-point:
+        * float (4 bytes)
+        * double (8 bytes) 
+2. Non-numeric:
+    * char (2 bytes)
+    * boolean (1 bit)  
+
+> Variable declaration example [here](https://github.com/IslaBlairSaloni/java/blob/main/Declaration.java)
+
+**Non-primitive (derived)**
+1. class
+2. interface
+3. array
 
