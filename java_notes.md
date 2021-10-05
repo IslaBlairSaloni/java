@@ -201,6 +201,11 @@ and NOT 1.
     * char (2 bytes)
     * boolean (1 bit)  
 
+**Declaration and initialisation:** 
+
+Syntax: type var1, var2....varn; </br>
+        type varname= value; </br>
+
 > Variable declaration example [here](https://github.com/IslaBlairSaloni/java/blob/main/Declaration.java)
 
 **Non-primitive (derived)**
