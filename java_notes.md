@@ -9,6 +9,7 @@
  - [Scope of variables](#Scope-of-variables)
  - [Symbolic Constants](#Symbolic-constants)
  - [Type Casting](#Type-casting)
+ - [Getting Values of variables](#Getting-values-of-variables)
 
 ### Sample-Program
 ```java
@@ -283,4 +284,26 @@ int a=b;
 * smaller type to larger type --> widening/promotion
 * larger type to smaller type --> narrowing
 
+>note: Floating points have a default type of double. So the declaration:
+float x=7.56;
+produces the error:  __incompatible types: possible lossy conversion from double to float__
+so, it should be written as:
+float x=7.56F;
+
+____
+### Getting-values-of-variables
+
+**Output methods: **
+* print() 					//prints and waits
+* println()  			   //prints and moves to the next line
+
+```java
+System.out.println("hello!"); //prints and moves to the next line
+System.out.print("world"); //prints and waits on the same line 
+System.out.println("welcome"); //prints and moves to the next line
+System.out.println(); //prints nothing but moves to the next line
+//now suppose you want to print the value of some variable x
+int x=9;
+System.out.println(x);
+```
 
