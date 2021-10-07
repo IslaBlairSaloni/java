@@ -10,6 +10,7 @@
  - [Symbolic Constants](#Symbolic-constants)
  - [Type Casting](#Type-casting)
  - [Getting Values of variables](#Getting-values-of-variables)
+ - [Default Values of variables](#Default-values)
 
 ### Sample-Program
 ```java
@@ -306,4 +307,15 @@ System.out.println(); //prints nothing but moves to the next line
 int x=9;
 System.out.println(x);
 ```
-
+____
+### Default-values
+|  DataType | Default value  |
+| ------------ | ------------ |
+| byte  | 0  |
+| short  | 0  |
+| int  | 0  |
+| long  | 0L  |
+| float  | 0.0f  |
+| double  | 0.0d  |
+| char  | null character  |
+| boolean  | false  |
