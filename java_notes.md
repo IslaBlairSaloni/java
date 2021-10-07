@@ -247,7 +247,7 @@ ____
 
 * user-defined unique constants
 * defined values get automatically substituted at the appropriate points
-* __syntax: __final type symbolic_name = value;
+* __syntax: __ final type symbolic_name = value;
 * value can never be changed within the program by the use of assign statement.
 * recommended to write the constant name in CAPITALS, in ordeer to differentiate from other identifiers.
 * CANNOT be declared inside a method, can be used only as class data members in the beginning of class.
