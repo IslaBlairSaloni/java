@@ -213,3 +213,69 @@ Syntax: type var1, var2....varn; </br>
 2. interface
 3. array
 
+____
+
+### Scope-of-variables
+**Scope: **Area of program where a variable is usable/accessible.
+Classified into three types:
+1. Instance variables :-
+    * declred inside a class
+    * created when objects are instantiated
+    * associated with objects
+	* different values for different objects
+2. Class variables
+    * declared inside a class
+	* global to that class
+	* only one memory is created for it
+3. Local Variables
+    * declared and used inside a method
+    * cant be used outside the method
+	* can also be declared inside code blocks --> {}
+	
+>Each block can contain its own set of local varialble declarations. We cannot however declare a variable to have the same name as one in outer block (in case of **nesting**).
+
+____
+
+
+### Symbolic-constants
+
+* user-defined unique constants
+* defined values get automatically substituted at the appropriate points
+* __syntax: __final type symbolic_name = value;
+* value can never be changed within the program by the use of assign statement.
+* recommended to write the constant name in CAPITALS, in ordeer to differentiate from other identifiers.
+* CANNOT be declared inside a method, can be used only as class data members in the beginning of class.
+
+Example:
+```java
+ final int STRENGTH=100;
+ final int PASS_MARK=50;
+ final int P1=3.14159;
+ ```
+
+
+____
+
+
+ ### Type-Casting
+ * To store value of one type into variable of another type.
+ * Used when a method returns a type different from the one we require.
+ * Casting into a smaller type can result in a loss of data.
+ **syntax: ** type variable1=(type) variable2;
+ example:
+ ```java
+ int m=50;
+ byte n=(byte) m;
+ long count=(long) m;
+ ```
+**Automatic-type conversion**
+Possible only if destination type has enough precession to store the source value.
+Eg: int is large enough to hold a byte value.
+```java
+byte b=75;
+int a=b;
+```
+* smaller type to larger type --> widening/promotion
+* larger type to smaller type --> narrowing
+
+
