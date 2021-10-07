@@ -6,6 +6,9 @@
  - [Implementing a java program](#Implementing-a-java-program)
  - [Command line arguments](#Command-Line-Arguments)
  - [Data Types](#Data-types)
+ - [Scope of variables](#Scope-of-variables)
+ - [Symbolic Constants](#Symbolic-constants)
+ - [Type Casting](#Type-casting)
 
 ### Sample-Program
 ```java
@@ -184,6 +187,7 @@ and NOT 1.
 * \\"  - single quote
 * \\' - double quote
 * \\\  - backslash
+   ____
    
 ### Data-types
 
@@ -216,6 +220,7 @@ Syntax: type var1, var2....varn; </br>
 ____
 
 ### Scope-of-variables
+
 **Scope: **Area of program where a variable is usable/accessible.
 Classified into three types:
 1. Instance variables :-
