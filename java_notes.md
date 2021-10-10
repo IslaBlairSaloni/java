@@ -1,4 +1,4 @@
-## Table of content
+## Table of contents
  - [Sample Program](#sample-program)
  - [A basic structure](#java-program-structure)
  - [Java tokens](#java-tokens)
@@ -11,6 +11,7 @@
  - [Type Casting](#Type-casting)
  - [Getting Values of variables](#Getting-values-of-variables)
  - [Default Values of variables](#Default-values)
+ - [Operators](#Operators)
 
 ### Sample-Program
 ```java
@@ -50,6 +51,10 @@ ___
 
 >link to example [here](https://github.com/IslaBlairSaloni/java/blob/main/RoomArea.java "link")
  ___
+
+[Table of contents](#Table of contents)
+
+____
 
 ### java-tokens
 
@@ -375,3 +380,76 @@ Eg:
 Eg:
 * a>b && x==10
 * a!=5 || a<10
+
+
+
+**NOTE:**
+* The result of these expressions will also be true or false.
+* The result of the logical operations is determined according  to the following table:
+
+| Expression-1 | Expression-2  |   AND  | OR  |
+| ------------ | ----------- | ---------- | ----------- |
+|  true |true   | true   | true  |
+| true  |  false |    false  |  true |
+| false   | true    |false  | true  |
+|  false  |  false |    false  | false  |
+
+#### Assignment Operator
+
+* Used to assign values to a variable. (=)
+* We have, in addition, shorthand assigment operators.
+
+| Simple Statement  | Shorthand operator  |
+| --------| ------------|
+| a=a+1  | a+=1  |
+| a=a-1   | a-=1 |
+| a=a\*(n+1)  | a\*=(n+1)   |
+| a=a/(n+1)  |  a/=(n+1) |
+|  a=a%b | a%=b  |
+
+__Why to use shorthand operators:__
+
+* Easier to write, no need to repeat whats on the left.
+* More concise and easy to read.
+* More efficient code
+
+#### Increment and decrement operator
+
+++ and \--
+* ++ adds 1,  Eg: ++m  or  m++
+*  \-- subtracts 1,  Eg:  \--m  or m\--
+* Mostly used in for and while loops
+* y=++m;  // will first increment the value of m then assign it to  y
+* y=m++; //will first assign the original value of m to y, then increment the value of m by 1.
+
+#### Conditional Operator
+
+The pair ? : is a ternary operator. It takes 3 operands. </br>
+exp1 ? exp2 : exp3
+
+1. First exp1 is evaluated.
+2. if it results true, then exp2 is evaluated and becomes the value of the expression.
+3. if exp1 results false, then exp3 is evaluated, and becomes the value of the expression.
+
+Eg:
+
+```java
+int a=7;
+int b=9;
+x=(a<b)?a:b;	 //checks if value of a is smaller, (yes), assigns value of a to x
+y=(a>b)?a:b; 	//checka if value of a is greater,(No), assigns value of a to y
+```
+#### Bitwise Operator
+
+For manipulation of data on bit level, and may not be applied to float or double. </br>
+Eg: Bitwise OR --> | </br>
+other operators:
+
+| Operator  | Meaning  |
+|---------- |----------|
+| &  |  bitwise AND |
+| ^  |  bitwise exclusive OR |
+| ~  | one's complement  |
+|<<   |  shift left |
+| >>  |  shift right |
+|  >>> | shift right with zero fill  |
