@@ -308,6 +308,7 @@ int x=9;
 System.out.println(x);
 ```
 ____
+
 ### Default-values
 |  DataType | Default value  |
 | ------------ | ------------ |
@@ -319,3 +320,58 @@ ____
 | double  | 0.0d  |
 | char  | null character  |
 | boolean  | false  |
+
+____
+
+### Operators
+
+#### Arithmetic Operators:
+| operator  | meaning   |
+| ------------ | ------------ |
+| +  |  addition |
+| -  | subtraction  |
+| *  | multiplication   |
+| /  | division  |
+| %  |modulus/remainder  |
+
+__NOTE:__
+* We cannot use these operators on boolean type.
+* The unary minus operator multiplies its single operand by (-1). Eg: -b\\c. 
+* Integer expression: When all the operands are integers. The output will always be an integer.
+* Integer division: a/b will result in the quotient excluding the remainder, i.e. 5/2 will result in 2 and 7/4 will result in 1.
+* Mixed-mode: When one operand is real and other is integer. The result will also be real. Eg: 15/10.0 = 1.5
+* In modulo division, the sign of the first operrand wil be the sign of the result. 
+    * 14%3=2
+	* 14%-3=2
+	* -14%3=-2
+	* -14%-3=-2
+* Modulo division is defined as: a % b = a - (a/b) \* b
+
+#### Relational Operators:
+|  operator | meaning  |
+| ------------ | ------------ |
+|  < |  less than |
+| <=  | less than equal to  |
+| >  |  greater than |
+| >=  | greater than equal to  |
+| ==  | equal to  |
+| !=  | not equal to  |
+
+__NOTE:__ 
+* Arithmetic operations have a higher priority over relational operators.
+* The values of the expression is either true or false.
+
+Eg:
+* a\<b
+* a==b
+* (x+7)>(y+8)
+
+#### Logical Operators
+
+&& -->  logical AND </br>
+|| --> logical OR </br>
+! --> logical NOT </br>
+
+Eg:
+* a>b && x==10
+* a!=5 || a<10
