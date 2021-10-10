@@ -93,6 +93,11 @@ There are 5 types of statements, and some sub-types under 'expression' statement
  program development. 
 ___
 
+
+[Table of contents](#Table-of-contents)
+
+____
+
 ### Implementing-a-java-program
 
 1. Source file  
@@ -151,6 +156,12 @@ public static void main(String args[])
 **Note:** Indexing in arrays begin from 0 
 and NOT 1.
 
+____
+
+[Table of contents](#Table-of-contents)
+
+____
+
 ### Literals
  * numeric
      * integer constants
@@ -194,8 +205,14 @@ and NOT 1.
 * \\"  - single quote
 * \\' - double quote
 * \\\  - backslash
-   ____
+
+____
    
+
+[Table of contents](#Table-of-contents)
+
+____
+
 ### Data-types
 
 **Primitive (intrinsic)**
@@ -249,6 +266,10 @@ Classified into three types:
 ____
 
 
+[Table of contents](#Table-of-contents)
+
+____
+
 ### Symbolic-constants
 
 * user-defined unique constants
@@ -297,6 +318,12 @@ so, it should be written as:
 float x=7.56F;
 
 ____
+
+
+[Table of contents](#Table-of-contents)
+
+____
+
 ### Getting-values-of-variables
 
 **Output methods: **
@@ -325,6 +352,11 @@ ____
 | double  | 0.0d  |
 | char  | null character  |
 | boolean  | false  |
+
+____
+
+
+[Table of contents](#Table-of-contents)
 
 ____
 
