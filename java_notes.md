@@ -1,4 +1,4 @@
-## Table of contents
+## Table-of-contents
  - [Sample Program](#sample-program)
  - [A basic structure](#java-program-structure)
  - [Java tokens](#java-tokens)
@@ -52,7 +52,7 @@ ___
 >link to example [here](https://github.com/IslaBlairSaloni/java/blob/main/RoomArea.java "link")
  ___
 
-[Table of contents](#Table of contents)
+[Table of contents](#Table-of-contents)
 
 ____
 
