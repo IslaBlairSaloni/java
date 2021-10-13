@@ -480,7 +480,7 @@ other operators:
 | Operator  | Meaning  |
 |---------- |----------|
 | &  |  bitwise AND |
-| ^  |  bitwise exclusive OR |
+| ^  |  bitwise exclusive OR (XOR) |
 | ~  | one's complement  |
 |<<   |  shift left |
 | >>  |  shift right |
