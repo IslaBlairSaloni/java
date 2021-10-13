@@ -294,7 +294,7 @@ ____
  * To store value of one type into variable of another type.
  * Used when a method returns a type different from the one we require.
  * Casting into a smaller type can result in a loss of data.
- **syntax: ** type variable1=(type) variable2;
+ **syntax: ** type variable1=(type) variable2; </br>
  example:
  ```java
  int m=50;
@@ -302,7 +302,7 @@ ____
  long count=(long) m;
  ```
 **Automatic-type conversion**
-Possible only if destination type has enough precession to store the source value.
+Possible only if destination type has enough precession to store the source value. </br>
 Eg: int is large enough to hold a byte value.
 ```java
 byte b=75;
@@ -485,3 +485,28 @@ other operators:
 |<<   |  shift left |
 | >>  |  shift right |
 |  >>> | shift right with zero fill  |
+
+Use of bitwise operators example [here](https://github.com/IslaBlairSaloni/java/blob/main/Bitwise.java)
+
+#### Special Operators
+
+__Instanceof__ : This helps to determine whether the object on the left-hand side is an instance/belongs to the class on right-hand side or not. </br>
+Eg:  </br>
+person  instanceof  student </br>
+will result _true_ if __person__ belongs to the class __student__ </br>
+
+__Dot operator__ : This is  used to access the instance variables and methods of class objects. </br>
+person1.age				//reference to variable age  </br>
+person1.salary()			//reference to the method salary()
+
+#### Precedence of arithmetic operators
+
+high priority        *  /  &      </br>
+low priority        +  -       </br>
+
+>Note: If same precedence occurs , then the expression is evaluated from left to right. 
+First, all the high priority operations are evaluated, from left to right, then low priority operators. But when parantheses () are used, it is always evaluated first.
+
+* To use mathematical functions, a class can be imported called as __Math__ which is present in __java.lang__  .
+* Can be used as Math.function_name(). </br>
+   Eg: y= Math.sqrt(x);
