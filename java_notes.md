@@ -12,6 +12,7 @@
  - [Getting Values of variables](#Getting-values-of-variables)
  - [Default Values of variables](#Default-values)
  - [Operators](#Operators)
+ - [Decision making and branching](#Decision-making-and-branching)
 
 ### Sample-Program
 ```java
@@ -510,3 +511,52 @@ First, all the high priority operations are evaluated, from left to right, then 
 * To use mathematical functions, a class can be imported called as __Math__ which is present in __java.lang__  .
 * Can be used as Math.function_name(). </br>
    Eg: y= Math.sqrt(x);
+
+____
+
+### Decision making and branching
+
+* When we may have to change the order of executuion of statements, or repeat one or more statements, based on a certain condition, then this concept comes into play.
+* When we have to break the sequential flow of the program, and jump to another part of the code, we call it __Branching__.
+* When branching is based on a particular condition, we call it __Conditional Branching__.
+*  Java uses the following __control__ or __decision making__ statements-
+ 1. if
+ 2. switch
+ 3. conditional
+
+#### If statement:
+
+* A two-way decision statement.
+* used in conjunction with a statement
+* Syntax:	 if	(	expression	)	;
+
+__Simple if__
+If the condition results true then some set of statements will be executed, if not, then that set of statements will be skipped and the execution will proceed.
+<!--
+```flow
+st=>start: Start
+op=>operation: Statements
+cond=>condition: If condition
+smst=>operation: Some statement block
+sms=>operation: Some statement x
+e=>end
+st->op->cond->sms
+cond(yes)->smst->sms->e
+cond(no)->sms->e
+```
+-->
+__If-else__
+
+<!---
+```flow
+st=>start: Entry
+cond1=>condition: If condtion
+op1=>operation: "if" Block of statements
+op2=>operation: "else" Block of statements
+fin=>operation: statement x
+e=>end
+st->cond1->fin->end
+cond1(yes)->op1->fin->e
+cond1(no)->op2->fin->e
+```
+-->
