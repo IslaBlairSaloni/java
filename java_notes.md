@@ -533,7 +533,7 @@ ____
 __Simple if__ </br>
 If the condition results true then some set of statements will be executed, if not, then that set of statements will be skipped and the execution will proceed.
 
-![Simple if](https://github.com/IslaBlairSaloni/java/blob/main/simple if.PNG)
+![Simple if](https://github.com/IslaBlairSaloni/java/blob/main/simple%20if.PNG)
 
 __If else__ </br>
 Here, when condition results true then some set of statements will be executed, if not, then the statements in the _else_ block will be executed. After that the next statements of the program will be executed. </br>
@@ -549,6 +549,8 @@ __else if ladder__ </br>
 This is used when multipath decisions are involved. </br>
 
 ![Ladder if else](https://github.com/IslaBlairSaloni/java/blob/main/elseifladder.PNG )
+</br>
+[Examples](https://github.com/IslaBlairSaloni/java/blob/main/Ifstmts.java)
 
 #### 2. Switch Statement
 
@@ -562,6 +564,8 @@ This is used when multipath decisions are involved. </br>
 > We can also use if statements to solve this problem,  but that will increase the complexity of the program.
 
 ![Switch Case](https://github.com/IslaBlairSaloni/java/blob/main/switchcase.png) 
+</br>
+[Examples](https://github.com/IslaBlairSaloni/java/blob/main/Swtch.java)
 
 #### 3. Conditional-operator
 
