@@ -2,7 +2,8 @@ class IfStmts
 {
   public static void main(String args[])
   {
-    int a=7,b=9,c;
+    int a=7,b=9,c=0;
+    //if no change will be there, prinitng c will result in 0
     //simple if
      if(a>b)
       c=a-b;
@@ -31,7 +32,7 @@ class IfStmts
     if(a>b)
       c=a-b;
     else if (a==b)
-      c=0;
+      c+=1;
     else 
       c=b-a;
   }
