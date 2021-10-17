@@ -327,7 +327,7 @@ ____
 
 ### Getting-values-of-variables
 
-**Output methods: **
+**Output methods:**
 * print() 					//prints and waits
 * println()  			   //prints and moves to the next line
 
@@ -530,6 +530,51 @@ ____
 * used in conjunction with a statement
 * Syntax:	 if	(	expression	)	;
 
-__Simple if__
+__Simple if__ </br>
 If the condition results true then some set of statements will be executed, if not, then that set of statements will be skipped and the execution will proceed.
 
+![Simple if](https://github.com/IslaBlairSaloni/java/blob/main/simple if.PNG)
+
+__If else__ </br>
+Here, when condition results true then some set of statements will be executed, if not, then the statements in the _else_ block will be executed. After that the next statements of the program will be executed. </br>
+
+![If Else](https://github.com/IslaBlairSaloni/java/blob/main/ifelse.PNG )
+
+__Nested if else__ </br>
+When a series of decisions is involved, we use nested if else. </br>
+
+![Nested if else](https://github.com/IslaBlairSaloni/java/blob/main/nestedifelse.PNG )
+
+__else if ladder__ </br>
+This is used when multipath decisions are involved. </br>
+
+![Ladder if else](https://github.com/IslaBlairSaloni/java/blob/main/elseifladder.PNG )
+
+#### 2. Switch Statement
+
+* When one of many alternatives is to be selected, then we use switch case. 
+* This tests the value of a given variable/expression against a list of cases, and when a match is found, it executes the associated block of statement.
+* These variables/expressions are called _labels_. 
+* They  can be integer values, or equivalent to some integer, and should be unique for each case.
+* the __break__ statement after every case is used to exit from the switch statement, transferring the control to the statement following the switch statement.
+* You can also use empty cases, which contain no statements.
+
+> We can also use if statements to solve this problem,  but that will increase the complexity of the program.
+
+![Switch Case](https://github.com/IslaBlairSaloni/java/blob/main/switchcase.png) 
+
+#### 3. Conditional-operator
+
+<mark>? :</mark> </br>
+This operator is useful in making two way decisions, it works like simple if. </br>
+condition ? operation1 : operation2 </br>
+If condition results true, operation1 gets executed, otherwise operation2.
+
+![Conditional Operator](https://github.com/IslaBlairSaloni/java/blob/main/condop.PNG)
+
+```java
+int a=5, b=9, c=6, d=4;
+(a>b)	?	a=0	:	b=0; 	//here b will become 0 as the condition results in false.
+(c>d)	?	c=0	:	d=0; 	//here c will become 0 as the condition results in true.
+```
+____
