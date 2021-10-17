@@ -1,4 +1,4 @@
-class Ifstmts
+class IfStmts
 {
   public static void main(String args[])
   {
