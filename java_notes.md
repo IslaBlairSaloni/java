@@ -524,7 +524,7 @@ ____
  2. switch
  3. conditional
 
-#### If statement:
+#### 1. If statement:
 
 * A two-way decision statement.
 * used in conjunction with a statement
@@ -550,7 +550,7 @@ This is used when multipath decisions are involved. </br>
 
 ![Ladder if else](https://github.com/IslaBlairSaloni/java/blob/main/elseifladder.PNG )
 </br>
-[Examples](https://github.com/IslaBlairSaloni/java/blob/main/Ifstmts.java)
+[Examples](https://github.com/IslaBlairSaloni/java/blob/main/IfStmts.java)
 
 #### 2. Switch Statement
 
