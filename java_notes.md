@@ -532,31 +532,4 @@ ____
 
 __Simple if__
 If the condition results true then some set of statements will be executed, if not, then that set of statements will be skipped and the execution will proceed.
-<!--
-```flow
-st=>start: Start
-op=>operation: Statements
-cond=>condition: If condition
-smst=>operation: Some statement block
-sms=>operation: Some statement x
-e=>end
-st->op->cond->sms
-cond(yes)->smst->sms->e
-cond(no)->sms->e
-```
--->
-__If-else__
 
-<!---
-```flow
-st=>start: Entry
-cond1=>condition: If condtion
-op1=>operation: "if" Block of statements
-op2=>operation: "else" Block of statements
-fin=>operation: statement x
-e=>end
-st->cond1->fin->end
-cond1(yes)->op1->fin->e
-cond1(no)->op2->fin->e
-```
--->
