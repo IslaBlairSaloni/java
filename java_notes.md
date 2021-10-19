@@ -594,6 +594,9 @@ ____
 * Types of loop based on control statement:
 	1. entry controlled: conditions tested before the start of execution of the loop
 	2. exit ccontrooled: conditions tested at the end of the body of the loop.
+
+![Exit and entry controlled loop](https://github.com/IslaBlairSaloni/java/blob/main/exit-entry.jpg)
+
 * Looping process:
 	1. Setting and initializing of a counter
 	2. Execution of the statements in loop.
