@@ -13,6 +13,7 @@
  - [Default Values of variables](#Default-values)
  - [Operators](#Operators)
  - [Decision making and branching](#Decision-making-and-branching)
+ - [Decision making and Looping](#Decision-making-and-Looping)
 
 ### Sample-Program
 ```java
@@ -582,3 +583,69 @@ int a=5, b=9, c=6, d=4;
 (c>d)	?	c=0	:	d=0; 	//here c will become 0 as the condition results in true.
 ```
 ____
+
+### Decision making and Looping
+* the process of repeatedly executing a block of statements is called looping.
+* the statements in a block can be executed any no. of time i.e. _zero to infinity_.
+* an _infinite loop_ is a loop which continues forever.
+* a loop has-
+	1. body of the loop
+	2. control statement : tests conditions on each repeated execution.
+* Types of loop based on control statement:
+	1. entry controlled: conditions tested before the start of execution of the loop
+	2. exit ccontrooled: conditions tested at the end of the body of the loop.
+* Looping process:
+	1. Setting and initializing of a counter
+	2. Execution of the statements in loop.
+	3. Condition check
+	4. Incrementing the counter
+* Three types of constructs to perform looping
+	1. while
+	2. do
+	3. for
+
+__1. While__
+
+Basic format: </br>
+*Initialization; </br>
+__while__ (test condition) </br>
+{ </br>
+Body of the loop </br>
+}*
+
+>this is an entry controlled loop
+
+Eg:
+```java
+sum=0;
+n=1; 				//setting and initialiation of counter
+while(n<=10)				//condition
+{
+sum=sum+n*n;
+n=n+1;				//increment of counter
+}
+System.out.println("sum="+sum);
+```
+__2.Do__
+
+Basic format: </br>
+*Initialization; </br>
+__do__ </br>
+{ </br>
+Body of the loop </br>
+}*
+__while__ (test condition); </br>
+
+>this is an entry controlled loop
+
+eg:
+```java
+i=1;
+sum=0;
+do
+{
+sum=sum+i;
+i=i+2;
+}
+while(sum<40 || i<10);
+```
