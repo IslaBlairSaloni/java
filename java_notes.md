@@ -209,11 +209,7 @@ ____
 * \\\  - backslash
 
 ____
-   
-
-[Table of contents](#Table-of-contents)
-
-____
+  
 
 ### Data-types
 
@@ -245,6 +241,10 @@ Syntax: type var1, var2....varn; </br>
 
 ____
 
+[Table of contents](#Table-of-contents)
+____
+
+
 ### Scope-of-variables
 
 **Scope: **Area of program where a variable is usable/accessible.
@@ -268,10 +268,6 @@ Classified into three types:
 ____
 
 
-[Table of contents](#Table-of-contents)
-
-____
-
 ### Symbolic-constants
 
 * user-defined unique constants
@@ -290,6 +286,11 @@ Example:
 
 
 ____
+
+[Table of contents](#Table-of-contents)
+
+____
+
 
 
  ### Type-Casting
@@ -322,10 +323,6 @@ float x=7.56F;
 ____
 
 
-[Table of contents](#Table-of-contents)
-
-____
-
 ### Getting-values-of-variables
 
 **Output methods:**
@@ -343,6 +340,11 @@ System.out.println(x);
 ```
 ____
 
+[Table of contents](#Table-of-contents)
+
+____
+
+
 ### Default-values
 |  DataType | Default value  |
 | ------------ | ------------ |
@@ -357,10 +359,6 @@ ____
 
 ____
 
-
-[Table of contents](#Table-of-contents)
-
-____
 
 ### Operators
 
@@ -514,6 +512,11 @@ First, all the high priority operations are evaluated, from left to right, then 
    Eg: y= Math.sqrt(x);
 
 ____
+
+[Table of contents](#Table-of-contents)
+
+____
+
 
 ### Decision making and branching
 
