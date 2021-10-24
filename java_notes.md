@@ -247,7 +247,7 @@ ____
 
 ### Scope-of-variables
 
-**Scope: **Area of program where a variable is usable/accessible.
+**Scope:** Area of program where a variable is usable/accessible.
 Classified into three types:
 1. Instance variables :-
     * declred inside a class
