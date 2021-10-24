@@ -632,7 +632,7 @@ n=n+1;				//increment of counter
 }
 System.out.println("sum="+sum);
 ```
-__2.Do__
+__2.Do While__
 
 Basic format: </br>
 *Initialization; </br>
@@ -655,7 +655,7 @@ i=i+2;
 }
 while(sum<40 || i<10);
 ```
-** 3. For**
+**3. For**
 Basic format </br> 
 _**for** ( initialisation ; test condition ; increment )_ </br>
 { </br>
@@ -671,7 +671,7 @@ _**for** ( initialisation ; test condition ; increment )_ </br>
 	2. control variable is incremented, (i=i+1), and tested again.
 	3. if tested true, executed again, and same process is followed until condition tests false.
 
-**Classic for loop**
+**Classic for loop** </br>
 eg:
 ```java
 //loop for i = ( 0 to 7 )
@@ -687,9 +687,9 @@ for( j=8 ; j>=0 ; j=j-1 )
 System.out.println( j );
 }
 ```
->**Comparison of loops:**
+**Comparison of loops:**
 
->|for   | while   |   do while|
+|for   | while   |   do while|
 | --- | --- | --- |
 | **for** ( initialization ; test condition ; increment )</br>{ </br>body of the loop </br>} </br> |  initialization; </br>**while** (test condition)</br>{ </br>Body of the loop </br>increment</br>}  | initialization;</br> **do**</br>{</br>Body of the loop</br>increment</br>} **while** (test condition);   |
 
@@ -697,7 +697,7 @@ for loop -
 * may have multiple initialisations :  </br> for( p=0, i=1 ; i<9 ; i++ )
 * may have multiple values to increment :  </br> for( i=1 ; i<9 ; p=p-1, i++ )
 * may have compound test conditions </br> for( i=1 ; i<9 &&  i>3 ; i++ )
-* may omit one or more sections. </br>i=0; </br> for( ; i<9 ; ) </br> statements </br>{ </br> i=i\*i;</br>} for( i=1000 ; i>0 ; i=i-1)</br>; 
+* may omit one or more sections. </br>i=0; </br> for( ; i<9 ; ) </br>{ </br> statements </br> i=i\*i; </br>} 
 * can be used as time delay loop,</br>for( i=1000 ; i>0 ; i=i-1)</br>; </br>OR</br>for( i=1000 ; i>0 ; i=i-1) ; </br> // this loop will execute 1000 times without producing any output
 
 **Nested For Loop**
@@ -716,7 +716,7 @@ for(i=1;i<=3;i++)
 ```
 **Enhanced For Loop**
 
-* also called for eacch llop
+* also called for each loop
 * more efficient way to retrieve array of elements rather than using array indexes.
 Eg:
 ```java
