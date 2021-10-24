@@ -655,3 +655,130 @@ i=i+2;
 }
 while(sum<40 || i<10);
 ```
+** 3. For**
+Basic format </br> 
+_**for** ( initialisation ; test condition ; increment )_ </br>
+{ </br>
+
+} </br>
+
+>this is an entry controlled loop
+
+* initialization is done first (i=1, count=0: i and count are **loop-conrol variables**).
+* value of control variable is tested using the test condition (results in true/false).
+* when the body of the loop is executed (till the last statement in the loop.)
+	1. the control statement is transferred back  to the __for__ statement.
+	2. control variable is incremented, (i=i+1), and tested again.
+	3. if tested true, executed again, and same process is followed until condition tests false.
+
+**Classic for loop**
+eg:
+```java
+//loop for i = ( 0 to 7 )
+for( i=0 ; i<=7 ; i=i+1 )
+{
+System.out.println( i );
+}
+```
+```java
+//loop for j = ( 8 to 0 )
+for( j=8 ; j>=0 ; j=j-1 )
+{
+System.out.println( j );
+}
+```
+>**Comparison of loops:**
+
+>|for   | while   |   do while|
+| --- | --- | --- |
+| **for** ( initialization ; test condition ; increment )</br>{ </br>body of the loop </br>} </br> |  initialization; </br>**while** (test condition)</br>{ </br>Body of the loop </br>increment</br>}  | initialization;</br> **do**</br>{</br>Body of the loop</br>increment</br>} **while** (test condition);   |
+
+for loop -
+* may have multiple initialisations :  </br> for( p=0, i=1 ; i<9 ; i++ )
+* may have multiple values to increment :  </br> for( i=1 ; i<9 ; p=p-1, i++ )
+* may have compound test conditions </br> for( i=1 ; i<9 &&  i>3 ; i++ )
+* may omit one or more sections. </br>i=0; </br> for( ; i<9 ; ) </br> statements </br>{ </br> i=i\*i;</br>} for( i=1000 ; i>0 ; i=i-1)</br>; 
+* can be used as time delay loop,</br>for( i=1000 ; i>0 ; i=i-1)</br>; </br>OR</br>for( i=1000 ; i>0 ; i=i-1) ; </br> // this loop will execute 1000 times without producing any output
+
+**Nested For Loop**
+
+one for statement in another </br>
+eg:
+```java
+for(i=1;i<=3;i++)
+{
+	System.out.println(i);
+	for(j=1;j<=10;j++)
+	{
+		System.out.println(" "+j);
+	}
+}
+```
+**Enhanced For Loop**
+
+* also called for eacch llop
+* more efficient way to retrieve array of elements rather than using array indexes.
+Eg:
+```java
+int arr[4]={10,20,30,40};
+//Classic for loop
+for(int i=0;i<4;i++)
+{
+System.out.println(" "+arr[i]);		//using index to access array elements
+}
+//For each loop
+for(int k: arr)
+{
+ System.out.println(" "+k);		//using k means using all the elements of array one by one
+}
+```
+
+**Jumps in loop**
+
+1. Jumping out of loop
+	 * an early exit from the loop **(for/while/loop)** can  be accomplished by  using **break** statement. (As seen in switch case).
+	 * immediate exit from the loop, moving to the statement after that loop block.
+2. Skipping a part of the loop
+	* skips the current iteration and moves to the next iteration
+	* all the statements after **continue** will be skipped, the value of the **counter variable** will be incremented and then the next iteration will go on normally.
+3. Both of these are generally used with **if** statements.
+
+Eg:
+```java
+for(j=1;j<=10;j++)
+{
+	 if(j==5)
+	 break;
+	 System.out.println(" "+j);
+}    //this loop will end when j will be equal to 5
+
+for(k=1;k<=10;k++)
+{
+	if(i%2==0)
+	continue;
+	System.out.println(" "+k);
+}    //this loop will print only those values of k which are not divisible by 2
+```
+
+**Labelled Loops**
+
+* Label : any valid variable name in java
+* In java, we can give label to a block of statements.
+* if we want to jump outside a nested loop, or continue a loop that is outside the current one, then we can use labelled loops.
+
+Eg;
+```java
+outer: for(int m=1;m<11;m++)
+{
+	for(int n=1;n<11;n++)
+	{
+		System.out.print(" "+m*n);
+		if(n==m)
+	    {
+	        System.out.println();
+	        continue outer;
+	    }
+	}
+}
+```
+![Labelled for loop]( https://github.com/IslaBlairSaloni/java/blob/main/labelled.PNG)
