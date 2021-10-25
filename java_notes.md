@@ -1,21 +1,22 @@
-## Table-of-contents
- - [Sample Program](#sample-program)
- - [A basic structure](#java-program-structure)
- - [Java tokens](#java-tokens)
+## Table of contents
+ - [Sample Program](#sample program)
+ - [A basic structure](#java program structure)
+ - [Java tokens](#java tokens)
  - [Statements in java](#statements)
- - [Implementing a java program](#Implementing-a-java-program)
- - [Command line arguments](#Command-Line-Arguments)
- - [Data Types](#Data-types)
- - [Scope of variables](#Scope-of-variables)
- - [Symbolic Constants](#Symbolic-constants)
- - [Type Casting](#Type-casting)
- - [Getting Values of variables](#Getting-values-of-variables)
- - [Default Values of variables](#Default-values)
+ - [Implementing a java program](#Implementing a java program)
+ - [Command line arguments](#Command Line Arguments)
+ - [Data Types](#Data types)
+ - [Scope of variables](#Scope of variables)
+ - [Symbolic Constants](#Symbolic constants)
+ - [Type Casting](#Type casting)
+ - [Getting Values of variables](#Getting values of variables)
+ - [Default Values of variables](#Default values)
  - [Operators](#Operators)
- - [Decision making and branching](#Decision-making-and-branching)
- - [Decision making and Looping](#Decision-making-and-Looping)
+ - [Decision making and branching](#Decision making and branching)
+ - [Decision making and Looping](#Decision making and Looping)
+ - [Classes](#Classes)
 
-### Sample-Program
+### Sample Program
 ```java
 /* square root of a number */
 import java.lang.Math;
@@ -34,7 +35,7 @@ class SquareRoot
 SQRT is a method of that class. </p>
 ___
 
-### Java-program-structure
+### Java program structure
 
 1. Documentation (optional)
    program name/author details in comments
@@ -54,11 +55,11 @@ ___
 >link to example [here](https://github.com/IslaBlairSaloni/java/blob/main/RoomArea.java "link")
  ___
 
-[Table of contents](#Table-of-contents)
+[Table of contents](#Table of contents)
 
 ____
 
-### java-tokens
+### java tokens
 
 * keywords: predefined meaning (lower case)
 * identifier: programmer designed tokens (can use $ sign too)
@@ -96,11 +97,11 @@ There are 5 types of statements, and some sub-types under 'expression' statement
 ___
 
 
-[Table of contents](#Table-of-contents)
+[Table of contents](#Table of contents)
 
 ____
 
-### Implementing-a-java-program
+### Implementing a java program
 
 1. Source file  
  Files with extension (.java) i.e. when the 
@@ -127,7 +128,7 @@ inside the computer memory.
 
 ___
 
-### Command-Line-Arguments
+### Command Line Arguments
 
 * We use them when we want our program to act in
 a particular way depending upon the input 
@@ -160,7 +161,7 @@ and NOT 1.
 
 ____
 
-[Table of contents](#Table-of-contents)
+[Table of contents](#Table of contents)
 
 ____
 
@@ -211,7 +212,7 @@ ____
 ____
   
 
-### Data-types
+### Data types
 
 **Primitive (intrinsic)**
 1. Numeric
@@ -241,11 +242,11 @@ Syntax: type var1, var2....varn; </br>
 
 ____
 
-[Table of contents](#Table-of-contents)
+[Table of contents](#Table of contents)
 ____
 
 
-### Scope-of-variables
+### Scope of variables
 
 **Scope:** Area of program where a variable is usable/accessible.
 Classified into three types:
@@ -268,7 +269,7 @@ Classified into three types:
 ____
 
 
-### Symbolic-constants
+### Symbolic constants
 
 * user-defined unique constants
 * defined values get automatically substituted at the appropriate points
@@ -287,13 +288,13 @@ Example:
 
 ____
 
-[Table of contents](#Table-of-contents)
+[Table of contents](#Table of contents)
 
 ____
 
 
 
- ### Type-Casting
+ ### Type Casting
  * To store value of one type into variable of another type.
  * Used when a method returns a type different from the one we require.
  * Casting into a smaller type can result in a loss of data.
@@ -323,7 +324,7 @@ float x=7.56F;
 ____
 
 
-### Getting-values-of-variables
+### Getting values of variables
 
 **Output methods:**
 * print() 					//prints and waits
@@ -340,12 +341,12 @@ System.out.println(x);
 ```
 ____
 
-[Table of contents](#Table-of-contents)
+[Table of contents](#Table of contents)
 
 ____
 
 
-### Default-values
+### Default values
 |  DataType | Default value  |
 | ------------ | ------------ |
 | byte  | 0  |
@@ -513,7 +514,7 @@ First, all the high priority operations are evaluated, from left to right, then 
 
 ____
 
-[Table of contents](#Table-of-contents)
+[Table of contents](#Table of contents)
 
 ____
 
@@ -782,3 +783,48 @@ outer: for(int m=1;m<11;m++)
 }
 ```
 ![Labelled for loop]( https://github.com/IslaBlairSaloni/java/blob/main/labelled.PNG)
+
+ ___
+
+[Table of contents](#Table of contents)
+
+____
+
+### Classes
+
+* anything we wish to represent in java, must be encapsulated in a __class__.
+* __class__ defines __state__ and __behaviour__ of the basic program components known as __objects__.
+* classes provides a method for packing together a **group of logically related data items and functions that work on them.**
+* here, data items are called fields and functions are called methods.
+* Class gives a sort of template for the objects.
+
+#### Defining a class
+
+* user-defined
+* once class type is defined, we can create variables of that class type known as objects, also known as instance of classes.
+
+ basic form:  </br>
+**class** *Class_name*  </br>
+{ </br>
+	fields declaration; </br>
+	methods declaration; </br>
+} </br>
+
+> we can also define empty classes, but this class won't be able to do anything. But, we can create its objects.
+
+#### Fields declaration
+
+* fields are also called [Instance variables](#Scope-of-variables) and member variables..
+* we can declare them in the same way we declare [Local variables](#Scope of variables).
+
+Example: </br>
+class Rectangle </br>
+{ </br>
+int length; </br>
+int width; </br>
+} </br>
+
+* the class __rectangle__ contains two integer type instance variables- length and width. 
+* They can also be declared as : __int length, width;__ 
+
+> these variables are only __declared__ , therefore, no memory will be assigned to them.
