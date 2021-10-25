@@ -1,22 +1,22 @@
-## Table of contents
- - [Sample Program](#sample program)
- - [A basic structure](#java program structure)
- - [Java tokens](#java tokens)
+## Table-of-contents
+ - [Sample Program](#sample-program)
+ - [A basic structure](#java-program-structure)
+ - [Java tokens](#java-tokens)
  - [Statements in java](#statements)
- - [Implementing a java program](#Implementing a java program)
- - [Command line arguments](#Command Line Arguments)
- - [Data Types](#Data types)
- - [Scope of variables](#Scope of variables)
- - [Symbolic Constants](#Symbolic constants)
- - [Type Casting](#Type casting)
- - [Getting Values of variables](#Getting values of variables)
- - [Default Values of variables](#Default values)
+ - [Implementing a java program](#Implementing-a-java-program)
+ - [Command line arguments](#Command-Line-Arguments)
+ - [Data Types](#Data-types)
+ - [Scope of variables](#Scope-of-variables)
+ - [Symbolic Constants](#Symbolic-constants)
+ - [Type Casting](#Type-casting)
+ - [Getting Values of variables](#Getting-values-of-variables)
+ - [Default Values of variables](#Default-values)
  - [Operators](#Operators)
- - [Decision making and branching](#Decision making and branching)
- - [Decision making and Looping](#Decision making and Looping)
+ - [Decision making and branching](#Decision-making-and-branching)
+ - [Decision making and Looping](#Decision-making-and-Looping)
  - [Classes](#Classes)
 
-### Sample Program
+### Sample-Program
 ```java
 /* square root of a number */
 import java.lang.Math;
@@ -35,7 +35,7 @@ class SquareRoot
 SQRT is a method of that class. </p>
 ___
 
-### Java program structure
+### Java-program-structure
 
 1. Documentation (optional)
    program name/author details in comments
@@ -55,11 +55,11 @@ ___
 >link to example [here](https://github.com/IslaBlairSaloni/java/blob/main/RoomArea.java "link")
  ___
 
-[Table of contents](#Table of contents)
+[Table of contents](#Table-of-contents)
 
 ____
 
-### java tokens
+### java-tokens
 
 * keywords: predefined meaning (lower case)
 * identifier: programmer designed tokens (can use $ sign too)
@@ -97,11 +97,11 @@ There are 5 types of statements, and some sub-types under 'expression' statement
 ___
 
 
-[Table of contents](#Table of contents)
+[Table of contents](#Table-of-contents)
 
 ____
 
-### Implementing a java program
+### Implementing-a-java-program
 
 1. Source file  
  Files with extension (.java) i.e. when the 
@@ -128,7 +128,7 @@ inside the computer memory.
 
 ___
 
-### Command Line Arguments
+### Command-Line-Arguments
 
 * We use them when we want our program to act in
 a particular way depending upon the input 
@@ -161,7 +161,7 @@ and NOT 1.
 
 ____
 
-[Table of contents](#Table of contents)
+[Table of contents](#Table-of-contents)
 
 ____
 
@@ -212,7 +212,7 @@ ____
 ____
   
 
-### Data types
+### Data-types
 
 **Primitive (intrinsic)**
 1. Numeric
@@ -242,11 +242,11 @@ Syntax: type var1, var2....varn; </br>
 
 ____
 
-[Table of contents](#Table of contents)
+[Table of contents](#Table-of-contents)
 ____
 
 
-### Scope of variables
+### Scope-of-variables
 
 **Scope:** Area of program where a variable is usable/accessible.
 Classified into three types:
@@ -269,7 +269,7 @@ Classified into three types:
 ____
 
 
-### Symbolic constants
+### Symbolic-constants
 
 * user-defined unique constants
 * defined values get automatically substituted at the appropriate points
@@ -288,13 +288,13 @@ Example:
 
 ____
 
-[Table of contents](#Table of contents)
+[Table of contents](#Table-of-contents)
 
 ____
 
 
 
- ### Type Casting
+ ### Type-Casting
  * To store value of one type into variable of another type.
  * Used when a method returns a type different from the one we require.
  * Casting into a smaller type can result in a loss of data.
@@ -324,7 +324,7 @@ float x=7.56F;
 ____
 
 
-### Getting values of variables
+### Getting-values-of-variables
 
 **Output methods:**
 * print() 					//prints and waits
@@ -341,12 +341,12 @@ System.out.println(x);
 ```
 ____
 
-[Table of contents](#Table of contents)
+[Table of contents](#Table-of-contents)
 
 ____
 
 
-### Default values
+### Default-values
 |  DataType | Default value  |
 | ------------ | ------------ |
 | byte  | 0  |
@@ -514,12 +514,12 @@ First, all the high priority operations are evaluated, from left to right, then 
 
 ____
 
-[Table of contents](#Table of contents)
+[Table of contents](#Table-of-contents)
 
 ____
 
 
-### Decision making and branching
+### Decision-making-and-branching
 
 * When we may have to change the order of executuion of statements, or repeat one or more statements, based on a certain condition, then this concept comes into play.
 * When we have to break the sequential flow of the program, and jump to another part of the code, we call it __Branching__.
@@ -588,7 +588,7 @@ int a=5, b=9, c=6, d=4;
 ```
 ____
 
-### Decision making and Looping
+### Decision-making-and-Looping
 * the process of repeatedly executing a block of statements is called looping.
 * the statements in a block can be executed any no. of time i.e. _zero to infinity_.
 * an _infinite loop_ is a loop which continues forever.
@@ -786,7 +786,7 @@ outer: for(int m=1;m<11;m++)
 
  ___
 
-[Table of contents](#Table of contents)
+[Table of contents](#Table-of-contents)
 
 ____
 
