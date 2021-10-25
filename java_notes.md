@@ -815,7 +815,7 @@ ____
 #### Fields declaration
 
 * fields are also called [Instance variables](#Scope-of-variables) and member variables..
-* we can declare them in the same way we declare [Local variables](#Scope of variables).
+* we can declare them in the same way we declare [Local variables](#Scope-of-variables).
 
 Example: </br>
 class Rectangle </br>
