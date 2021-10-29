@@ -15,6 +15,7 @@
  - [Decision making and branching](#Decision-making-and-branching)
  - [Decision making and Looping](#Decision-making-and-Looping)
  - [Classes](#Classes)
+ - [Object Creation](#Creating-Objects)
 
 ### Sample-Program
 ```java
@@ -828,3 +829,53 @@ int width; </br>
 * They can also be declared as : __int length, width;__ 
 
 > these variables are only __declared__ , therefore, no memory will be assigned to them.
+
+#### Method declaration
+
+* The objects created by such classes which have no methods, cannot respond to any messages.
+* General form: </br> __type methodName (parameter list)__ </br> { </br> method-body; </br> }
+* four basic parts:
+ 1. name 
+ 	* any valid identifier
+ 2. return type 
+ 	* the type of value the function will return
+	* can be int, float, void
+ 3. parameter-list 
+	*  always enclosed in parantheses
+	* contains list of names and types of variables we want to provide as input
+	* eg1: (int m, float x, float y) 		//three parameters 
+	* eg2: () 		//empty list
+ 4. body - describes the actual operation to be performed by the function
+* Example: </br>
+class Rectangle </br> 
+{ </br>
+int length; </br>
+int width; </br>
+__void__ getData (int x, int y) 	//method declaration </br>
+{ </br>
+length=x; </br>
+width=y; </br>
+} </br>
+} </br>
+
+### Creating-Objects
+
+* Also referred to as instantiating an object
+* using __new__ operator 
+* The __new__ operator creates an object of the specified class and returns a reefrence to that object.
+
+Eg:</br>
+Rectangle rect1= __new__ Rectangle(); </br>
+* the method __Rectangle()__ is the default constructor of the class __Rectangle__ . </br>
+Eg:</br>
+Rectangle rect1= new Rectangle( ) ; </br>
+Rectangle rect2= new Rectangle( ) ; </br>
+
+|  action | statement  |  result |
+| ------------ | ------------ | ------------ |
+|  Declare | Rectangle rect1;  | null  |
+| instantiate  | rect1= new Rectangle( );  | reference created |
+|   | | rect1 is reference to rectangle objects |
+
+* It is  also possible to create two or more reference to the same object. </br> Rectangle R1= new Rectangle( ); </br> Rectangle R2=R1;
+* R1 and R2 are references to the same rectangle object, i.e. any changes made in R1's fields, will be reflected in R2's fields too.
