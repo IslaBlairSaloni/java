@@ -879,3 +879,131 @@ Rectangle rect2= new Rectangle( ) ; </br>
 
 * It is  also possible to create two or more reference to the same object. </br> Rectangle R1= new Rectangle( ); </br> Rectangle R2=R1;
 * R1 and R2 are references to the same rectangle object, i.e. any changes made in R1's fields, will be reflected in R2's fields too.
+
+ ___
+
+[Table of contents](#Table-of-contents)
+
+___
+
+### Accessing-Class-Members
+
+* Cannot be accessed directly
+* Syntax to access objects: </br>
+>*objectname.variablename = value ;* </br>
+*objectname.methodname(parameter-list) ;* </br>
+
+Eg:
+```java
+void getData( int m, int n)  //let this be a function in the class
+{
+length=m;
+breadth=n;
+}
+//rect1 is an object
+rect1.length=11;		//accessing data member
+rect1.breadth=12;
+rect1.getData(11,12);		//accessing member function
+```
+* we can use this method while performing operations too: </br>
+Eg:  area = rect1.length * rect1.breadth;
+
+___
+
+### Constructors
+
+* used to initialize objects at the time of creation
+* a special type of method
+* no return type
+* returns the instance of the  class
+
+Eg:
+```java
+classs Rectangle
+{
+	int length, width;
+	Rectangle( int m, int n)		//constructor method
+	{
+		length=m;
+		width=n;
+	}
+	int rectArea()
+	{
+		return (length*width);		//normal method
+	}
+}
+```
+* to make a constructor automatically assign default values to the object, a non-parameterised constructor can also be made.
+Eg: </br>
+Rectangle()</br>
+{ </br>
+	length=0; </br>
+	width=0; </br>
+}
+
+
+ ___
+
+[Table of contents](#Table-of-contents)
+
+___
+
+### Method-Overloading
+
+* using methods with same name but different parameter-list and different definitions.
+* used when objects have to perform similar tasks but using different input parameters.
+* difference can be in no. or type of parameters.
+* when a method is called, first the __method name__ is matched up and then the __parameter-list__.
+* known as __polymorphism__.
+* return type does not play any role here.
+Eg:
+```java
+class Room
+{
+	float length, breadth;
+	Room(float x, float y)			//constructor1
+	{
+		 length=x;
+		 breadth=y;
+	}
+	Room(float x)			//constructor2
+	{
+		 length=breadth=x;
+	}
+	Room()			//constructor3
+	{
+		 length=0;
+		 breadth=0;
+	}
+	int area()
+	{
+		return(length*breadth);
+	}
+}
+```
+Now, overloading the constructor method Room(). </br>
+Room r1=new Room( 3.4  ,8.9 );		//using constructor1 </br>
+Room r2=new Room( 12.3 );		//using constructor2 </br>
+Room r3=new Room();		//using constructor3 </br>
+
+### Static-members
+
+* a  member that is common to all objects and accessed without using a particular object.
+* that member belongs to the class as a whole, rather than the objects created from the class.
+* often referred to as _class variables_ and _class methods_.
+* java creates only one copy for a static variable.
+* can be used even if the class is never actually instantiated.
+* also available for use by other classes.
+* a static variable can be used to keep a count of how many objects of the class have been created.
+* a static method can be used as those methods which dont directly affect the instance of the class.
+Eg: </br>
+__static__ int count;	</br>
+__static__ int max(int x, int y);	</br>
+
+* A very good example of class method is __Math.sqrt( )__, __sqrt__ is a class method of the class __Math__.
+
+### Nesting-of-methods
+
+* some ways of calling methods is by the object of the class or the class itself, using the dot operator.
+* but, it can also be called by its own name only, by another method of the same class.
+* this is known as _nesting of methods_. [Example](https://github.com/IslaBlairSaloni/java/blob/main/NestingTest.java)
