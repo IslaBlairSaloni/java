@@ -858,6 +858,8 @@ width=y; </br>
 } </br>
 } </br>
 
+___
+
 ### Creating-Objects
 
 * Also referred to as instantiating an object
@@ -1001,6 +1003,12 @@ __static__ int count;	</br>
 __static__ int max(int x, int y);	</br>
 
 * A very good example of class method is __Math.sqrt( )__, __sqrt__ is a class method of the class __Math__.
+
+___
+
+[Table of contents](#Table-of-contents)
+
+___
 
 ### Nesting-of-methods
 
