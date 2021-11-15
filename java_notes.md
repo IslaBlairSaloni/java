@@ -986,7 +986,9 @@ class Room
 Now, overloading the constructor method Room(). </br>
 Room r1=new Room( 3.4  ,8.9 );		//using constructor1 </br>
 Room r2=new Room( 12.3 );		//using constructor2 </br>
-Room r3=new Room();		//using constructor3 </br>
+Room r3=new Room();		//using constructor3 </br>  
+
+___
 
 ### Static-members
 
