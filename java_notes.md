@@ -21,6 +21,7 @@
  - [Method Overloading](#Method-Overloading)
  - [Static members](#Static-members)
  - [Nesting of methods](#Nesting-of-methods)
+ - [Inheritance](#Inheritance)
 
 ### Sample-Program
 ```java
@@ -1022,3 +1023,42 @@ ___
 * some ways of calling methods is by the object of the class or the class itself, using the dot operator.
 * but, it can also be called by its own name only, by another method of the same class.
 * this is known as _nesting of methods_. [Example](https://github.com/IslaBlairSaloni/java/blob/main/NestingTest.java)
+
+___
+
+### Inheritance
+
+* the mechanism of deriving a new class from an old one is called inheritance.
+* the __old__ class is known as the __base class__ or __super class__ or __parent class.__
+* the __new__ class is known as the __sub class__ or __derived class__ or __child class.__
+* Different forms of inheritance:
+ * Single inheritance - ( Only ONE super class)
+ * Multiple inheritance - (SEVERAL super classes)
+ * Hierarchical iheritance - (ONE super class, MANY subclasses)
+ * Multilevel inheritance - (derived from a derived class)
+
+ ![Types](https://github.com/IslaBlairSaloni/java/blob/main/inher.PNG)
+ 
+ #### Defining a subclass
+
+```java
+class subclassname extends superclassname
+{
+	//variables declaration
+	//methods declaration
+}
+```
+* the keyword __extends__ signifies that the properties of _superclassname_ are extended to the _subclassname._
+* subclass will now have its own members as well as those of the superclass too.
+
+__Subclass constructor__
+
+* used to construct variables of both subclass and superclass.
+* subclass constructor uses keyword __super__ to invoke the constructor method of supeclass.
+ * __super__ may only be used inside a subclass constructor method.
+ * the call to super class constructor must appear __first__ within the subclass constructor.
+ * the parameters in the call must match the order and type of instance variables declared in the super class.
+
+[Example](https://github.com/IslaBlairSaloni/java/blob/main/Inher.java)
+
+
