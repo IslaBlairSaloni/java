@@ -1036,6 +1036,8 @@ ___
 	* Multiple inheritance - (SEVERAL super classes)
 	* Hierarchical iheritance - (ONE super class, MANY subclasses)
 	* Multilevel inheritance - (derived from a derived class)
+	
+> java does not directly implement multiple inheritance, it is done by using a secondary path known as __interfaces.__
 
  ![Types](https://github.com/IslaBlairSaloni/java/blob/main/inher.PNG)
  
