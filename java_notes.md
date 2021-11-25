@@ -1032,10 +1032,10 @@ ___
 * the __old__ class is known as the __base class__ or __super class__ or __parent class.__
 * the __new__ class is known as the __sub class__ or __derived class__ or __child class.__
 * Different forms of inheritance:
- * Single inheritance - ( Only ONE super class)
- * Multiple inheritance - (SEVERAL super classes)
- * Hierarchical iheritance - (ONE super class, MANY subclasses)
- * Multilevel inheritance - (derived from a derived class)
+	* Single inheritance - ( Only ONE super class)
+	* Multiple inheritance - (SEVERAL super classes)
+	* Hierarchical iheritance - (ONE super class, MANY subclasses)
+	* Multilevel inheritance - (derived from a derived class)
 
  ![Types](https://github.com/IslaBlairSaloni/java/blob/main/inher.PNG)
  
@@ -1055,9 +1055,9 @@ __Subclass constructor__
 
 * used to construct variables of both subclass and superclass.
 * subclass constructor uses keyword __super__ to invoke the constructor method of supeclass.
- * __super__ may only be used inside a subclass constructor method.
- * the call to super class constructor must appear __first__ within the subclass constructor.
- * the parameters in the call must match the order and type of instance variables declared in the super class.
+	* __super__ may only be used inside a subclass constructor method.
+	* the call to super class constructor must appear __first__ within the subclass constructor.
+	* the parameters in the call must match the order and type of instance variables declared in the super class.
 
 [Example](https://github.com/IslaBlairSaloni/java/blob/main/Inher.java)
 
