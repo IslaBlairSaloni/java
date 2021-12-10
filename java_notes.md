@@ -1064,4 +1064,67 @@ __Subclass constructor__
 
 [Example](https://github.com/IslaBlairSaloni/java/blob/main/Inher.java)
 
+#### Multilevel-inheritance
+* using derived class as a super class.
+* Eg: A is the base class of derived class B, which is the base class of derived class C.
+* inheritance path -> the chain ABC
+```java
+class A
+{
+		 //body 
+}
+class B extends A		//first level
+{
+		 //body
+}
+class C extends B		//second level
+{
+ 		//body
+}
+// and other levels if required...
+```
+* here, class C can access members of both A and B.
 
+#### heirarchical-inheritance
+
+* one super class and many subclasses. Example: 
+ ![Hierarchical classification of bank accounts](https://lh3.googleusercontent.com/proxy/ArRRLqWh-xmIuboW9AYhsiVdCxeRA_B2lmsa40vFjsCdyAWTRV3EYZHEi6pW0JH-sRHWXx_OwUnBcl8UQm_Umua5Q4vLoQgHwcCKwX5o6B_9iqReM5cxgbXFKOoXLLPkeJohHSZPN7KBuGNURcFliEaWaPntye3DWj8gpQVq3Ye2SEl3lEw1DDnrvA)
+
+* All accounts posssess certain common features.
+ ___
+
+[Table of contents](#Table-of-contents)
+
+____
+
+### Overriding-methods
+
+* defining a method in the subclass that has same name, arguments and return type as one in super class.
+* when called, the subclass method gets executed.
+* this is called overriding.
+ ```java
+ class Super
+ {
+		//statements
+		void display()		//method defined once
+		{
+		  System.out.println(" super class method");
+		}
+ }
+ class Sub extends Super
+ {
+		//statements
+		void display()		 //method defined once again
+		{
+		  System.out.println(" Sub class method");
+		}
+ }
+ class Override
+ {
+		public static void main(String []args)
+		{
+		 Sub s1=new Sub();
+		 s1.display();
+		}
+ }
+ ```
