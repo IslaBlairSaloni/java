@@ -22,6 +22,7 @@
  - [Static members](#Static-members)
  - [Nesting of methods](#Nesting-of-methods)
  - [Inheritance](#Inheritance)
+ - [Overriding methods](#Overriding-methods)
 
 ### Sample-Program
 ```java
