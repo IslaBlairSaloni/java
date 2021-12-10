@@ -1131,11 +1131,11 @@ ____
 > Method overriding is one of the way by which java achieve **Run Time Polymorphism**. 
 > The version of a method that is executed will be determined by the object that is used to invoke it.
 
-#### upcasting and downcasing
+#### Upcasting and downcasing
 
  *  __Upcasting__ and __Downcasting__ is the type of object typecasting.
  
- __Upcasting__
+ __1. Upcasting__
  
  * child class object -> parent class object
  * we can access the variables and methods of the parent class to the child class
