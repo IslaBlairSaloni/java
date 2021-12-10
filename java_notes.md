@@ -1071,13 +1071,13 @@ __Subclass constructor__
 ```java
 class A
 {
-		 //body 
+	 //body 
 }
-class B extends A		//first level
+class B extends A	//first level
 {
-		 //body
+	 //body
 }
-class C extends B		//second level
+class C extends B	//second level
 {
  		//body
 }
@@ -1085,7 +1085,7 @@ class C extends B		//second level
 ```
 * here, class C can access members of both A and B.
 
-#### heirarchical-inheritance
+#### Hiearchical-inheritance
 
 * one super class and many subclasses. Example: 
  ![Hierarchical classification of bank accounts](https://lh3.googleusercontent.com/proxy/ArRRLqWh-xmIuboW9AYhsiVdCxeRA_B2lmsa40vFjsCdyAWTRV3EYZHEi6pW0JH-sRHWXx_OwUnBcl8UQm_Umua5Q4vLoQgHwcCKwX5o6B_9iqReM5cxgbXFKOoXLLPkeJohHSZPN7KBuGNURcFliEaWaPntye3DWj8gpQVq3Ye2SEl3lEw1DDnrvA)
@@ -1105,26 +1105,26 @@ ____
  ```java
  class Super
  {
-		//statements
-		void display()		//method defined once
-		{
-		  System.out.println(" super class method");
-		}
+	//statements
+	void display()		//method defined once
+	{
+	  System.out.println(" super class method");	
+	}
  }
  class Sub extends Super
  {
-		//statements
-		void display()		 //method defined once again
-		{
-		  System.out.println(" Sub class method");
-		}
+	//statements
+	void display()		 //method defined once again
+	{
+	  System.out.println(" Sub class method");
+	}
  }
  class Override
  {
-		public static void main(String []args)
-		{
-		 Sub s1=new Sub();
-		 s1.display();
-		}
+	public static void main(String []args)
+	{
+	 Sub s1=new Sub();
+	 s1.display();
+	}
  }
  ```
