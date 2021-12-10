@@ -1130,3 +1130,47 @@ ____
  ```
 > Method overriding is one of the way by which java achieve **Run Time Polymorphism**. 
 > The version of a method that is executed will be determined by the object that is used to invoke it.
+
+#### upcasting and downcasing
+
+ *  __Upcasting__ and __Downcasting__ is the type of object typecasting.
+ 
+ __Upcasting__
+ 
+ * child class object -> parent class object
+ * we can access the variables and methods of the parent class to the child class
+ * but we access only some specified variables and methods of the child class.
+
+ ```java
+ class Parent
+ {
+  	void disp()		//method of parent class
+  	{
+  	System.out.println("parent's class");
+  	}
+ 	}
+ class Child extends Parent
+ {
+  	void disp()		//method1 of child class same as parent class
+  	{
+  	System.out.println("child class method 1");
+  	}
+	void disp2()	//method2 of child class
+  	{
+  	System.out.println("child class method 2");
+  	}
+ }
+class Upcasting
+{
+   public static void main(String  args[])
+   {
+	Parent p=new Child();	//upcasting
+	p.disp();	//overrides the function disp() in parent class
+	p.disp2();	//generates compilation error
+	}
+}
+```
+
+* calling disp2() will result in the error: </br> cannot find symbol </br> p.disp2();
+* upcasting Child to Parent, will result in an object containing only those methods which are already present in the Parent class.
+* if we comment __//p.disp()2__ then the output will be: </br>child class method 2
