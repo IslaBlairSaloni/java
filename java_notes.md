@@ -1079,7 +1079,7 @@ class B extends A	//first level
 }
 class C extends B	//second level
 {
- 		//body
+ 	//body
 }
 // and other levels if required...
 ```
