@@ -1,4 +1,4 @@
-//Checking concept of abstract clsses and methods
+//Checking concept of abstract classes and methods
 class Animal        //parent
 {
   int x,y,z;
@@ -118,3 +118,23 @@ public class Checking
         
     }
 }
+
+
+/* 
+OUTPUT:
+This is a method of animal class
+This is the static method of animal class
+this method cannot change its body(animal)
+in a normal child class(dog), x.y.z= 567
+This is a method of animal class
+This is the static method of animal class
+this method cannot change its body(animal)
+(girl)overriden abstract smart
+(girl)overriden abstract selfish
+this method cannot change its body(human)
+(men)extended an abstract child
+(boy)overriden abstract func4
+(men)overriden abstract smart
+(men)overriden abstract selfish
+*/
+
