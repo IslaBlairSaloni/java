@@ -113,6 +113,8 @@ public class Checking
         //Men
         Men ob4=new Men();
         ob4.method();
+        ob4.smart();   
+        ob4.selfish(); 
         
     }
 }
