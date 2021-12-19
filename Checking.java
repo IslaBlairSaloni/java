@@ -4,15 +4,15 @@ class Animal        //parent
   int x,y,z;
   void func1()      //normal parent function
   {
-      System.out.println("This is a method of parent class");
+      System.out.println("This is a method of animal class");
   }
   static void func2()       //static parent function
   {
-      System.out.println("This is the static method of parent classs");
+      System.out.println("This is the static method of animal class");
   }
   final void func3()        //final parent function
   {
-      System.out.println("this method cannot change its body");
+      System.out.println("this method cannot change its body(animal)");
   }
 }
 
@@ -27,7 +27,7 @@ class Dog extends Animal     //normal child
     }
     void sniff()        //a normal method
     {
-        System.out.println("in a normal child class, x.y.z= "+super.x+super.y+super.z);
+        System.out.println("in a normal child class(dog), x.y.z= "+super.x+super.y+super.z);
         super.func1();      //method of parent
         Animal.func2();     //static method of parent
         super.func3();      //final method of parent
@@ -44,7 +44,7 @@ abstract class Human extends Animal     //abstract class inheriting parent class
     }
     final void func5()      //final function in abstract class
     {
-      System.out.println("this method cannot change its body");
+      System.out.println("this method cannot change its body(human)");
     }
 }
 
@@ -52,23 +52,23 @@ class Girl extends Human        //inheriting abstract class
 {
     void smart()        //implementing abstract method-1
     {
-        System.out.println("overriden abstract smart");
+        System.out.println("(girl)overriden abstract smart");
     }
     void selfish()      //implementing abstract method-2
     {
-        System.out.println("overriden abstract selfish");
+        System.out.println("(girl)overriden abstract selfish");
     }
-    void func5()        //trying to override a final method
+  /*   void func5()        //trying to override a final method will generate error
     {
         System.out.println("final method's body changed successfully");
-    }
+    }*/
 }
 
 abstract class Boy extends Human      //abstract child of abstract class
 {
     void func4()        //overriding func4 of abstract class
     {
-        System.out.println("overriden abstract func4");
+        System.out.println("(boy)overriden abstract func4");
     }
 }
 
@@ -76,8 +76,17 @@ class Men extends Boy       //extending an abstract child
 {
     void method()     
     {
-        System.out.println("extended an abstract child");
+        System.out.println("(men)extended an abstract child");
         func4();
+    }
+   //not adding implementation of abstract method of abstract grandparent human class will generate error
+    void selfish()      //implementing abstract method-2
+    {
+        System.out.println("(men)overriden abstract selfish");
+    }
+    void smart()        //implementing abstract method-1
+    {
+        System.out.println("(men)overriden abstract smart");
     }
     
 }
