@@ -20,7 +20,10 @@ class Dog extends Animal     //normal child
 {
     Dog()
     {
-        super(5,6,7);       //initializing parents variables
+         //initializing parents variables
+         super.x=5;
+         super.y=6;
+         super.z=7;
     }
     void sniff()        //a normal method
     {
@@ -61,7 +64,7 @@ class Girl extends Human        //inheriting abstract class
     }
 }
 
-abstract Boy extends Human      //abstract child of abstract class
+abstract class Boy extends Human      //abstract child of abstract class
 {
     void func4()        //overriding func4 of abstract class
     {
@@ -71,7 +74,7 @@ abstract Boy extends Human      //abstract child of abstract class
 
 class Men extends Boy       //extending an abstract child
 {
-    void method     
+    void method()     
     {
         System.out.println("extended an abstract child");
         func4();
