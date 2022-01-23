@@ -1174,3 +1174,51 @@ class Upcasting
 * calling disp2() will result in the error: </br> cannot find symbol </br> p.disp2();
 * upcasting Child to Parent, will result in an object containing only those methods which are already present in the Parent class.
 * if we comment __//p.disp()2__ then the output will be: </br>child class method 2
+
+__2. Downcasting__
+
+* parent class object -> child class object
+* cannot be implicit.
+* the compiler checks (casting is possible or not).
+* If not, the compiler throws a ClassCastException.
+
+```java
+ class Parent
+ {
+  	void disp()		//method of parent class
+  	{
+  	System.out.println("parent's class");
+  	}
+ 	}
+ class Child extends Parent
+ {
+  	void disp()		//method1 of child class same as parent class
+  	{
+  	System.out.println("child class method 1");
+  	}
+	void disp2()	//method2 of child class
+  	{
+  	System.out.println("child class method 2");
+  	}
+ }
+class Downcasting
+{
+   public static void main(String  args[])
+   {
+	Child c=(Child) new Parent;	//object creation
+	c.disp();	
+	c.disp2();	
+	}
+}
+```
+
+* this will generate the error: </br> Exception in thread "main" java.lang.ClassCastException: class Parent cannot be cast to class Child 
+* if we replace the object creation part with  </br>
+ ```java
+ Parent p = new Child();  //upcasting
+ Child c = (Child) p;	//downcasting
+ ```
+ then the output will be : </br>
+ child class method 1 </br>
+ child class method 2 </br>
+
