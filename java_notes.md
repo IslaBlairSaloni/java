@@ -1213,7 +1213,7 @@ class Downcasting
 ```
 
 * this will generate the error: </br> Exception in thread "main" java.lang.ClassCastException: class Parent cannot be cast to class Child 
-* if we replace the object creation part with  </br>
+* if we replace the object creation part with :  </br>
  ```java
  Parent p = new Child();  //upcasting
  Child c = (Child) p;	//downcasting
