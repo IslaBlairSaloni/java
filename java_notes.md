@@ -1266,10 +1266,12 @@ This will result in:  </br>
 but if we remove **final** keyword from **Pop** class, then the result will be: </br>
 ![0.07 sec compile time](https://github.com/IslaBlairSaloni/java/blob/main/slower.png ) </br>
 
-> so, you can notice the difference between compile time.
+> so, you can notice the difference between compile times.
 
- ___
+<!---
+___
 
 [Table of contents](#Table-of-contents)
 
 ____
+--->
