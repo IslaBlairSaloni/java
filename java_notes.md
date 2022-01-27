@@ -23,6 +23,7 @@
  - [Nesting of methods](#Nesting-of-methods)
  - [Inheritance](#Inheritance)
  - [Overriding methods](#Overriding-methods)
+ - [Final Keyword](#Final-keyword)
 
 ### Sample-Program
 ```java
@@ -1221,4 +1222,54 @@ class Downcasting
  then the output will be : </br>
  child class method 1 </br>
  child class method 2 </br>
+ 
+ ___
+ 
+ ### Final-Keyword
+#### 1. Variables and methods
+* final methods and variables cannot be overriden in subclasses.
+* functionality of a final method never gets altered.
+* value of a final variable can never be changed.
+* it behaves like a class variable.
+* members of a class can be declared final in the following manner:
 
+```java
+final int SIZE= 100;
+  final void showstatus()
+  {
+  	//functionality
+  }
+```
+#### 2. Classes
+* final classes cannot be inherited.
+* compiler performs some optimizations when method of a final class is called. Eg: 
+
+```java
+final class Pop
+{
+     void meth()
+    {
+        System.out.println("optimized");
+    }
+}
+public class FinClass
+{
+    public static void main(String args[])
+	{
+    Pop P=new Pop();
+    P.meth();
+    }
+}
+```
+This will result in:  </br>
+![0.06 sec compile time](https://github.com/IslaBlairSaloni/java/blob/main/faster.png ) </br>
+but if we remove **final** keyword from **Pop** class, then the result will be: </br>
+![0.07 sec compile time](https://github.com/IslaBlairSaloni/java/blob/main/slower.png ) </br>
+
+> so, you can notice the difference between compile time.
+
+ ___
+
+[Table of contents](#Table-of-contents)
+
+____
