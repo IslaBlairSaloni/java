@@ -1089,7 +1089,7 @@ class C extends B	//second level
 #### Hiearchical-inheritance
 
 * one super class and many subclasses. Example: 
- ![Hierarichal](https://static.javatpoint.com/cpp/images/hierarchical-inheritance-in-cpp2.png)
+ ![Hierarichal](https://github.com/IslaBlairSaloni/java/blob/main/hierarchicalInher.png)
 
 * All accounts posssess certain common features.
  ___
