@@ -1089,7 +1089,7 @@ class C extends B	//second level
 #### Hiearchical-inheritance
 
 * one super class and many subclasses. Example: 
- ![Hierarchical classification of bank accounts](https://programmingknow.com/wp-content/uploads/2020/08/hiericial_pic.jpg)
+ ![Hierarichal](https://static.javatpoint.com/cpp/images/hierarchical-inheritance-in-cpp2.png)
 
 * All accounts posssess certain common features.
  ___
